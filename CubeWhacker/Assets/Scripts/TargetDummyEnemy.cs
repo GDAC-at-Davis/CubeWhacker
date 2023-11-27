@@ -3,7 +3,7 @@ using UnityEngine;
 /// <summary>
 /// Simple target dummy style enemy
 /// </summary>
-public class BoxEnemy : MonoBehaviour
+public class TargetDummyEnemy : MonoBehaviour
 {
     [Header("Dependencies"), SerializeField]
     private CombatEntity combatEntity;

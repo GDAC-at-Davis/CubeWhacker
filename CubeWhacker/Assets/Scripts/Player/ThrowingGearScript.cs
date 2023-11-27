@@ -67,7 +67,7 @@ public class ThrowingGearScript : MonoBehaviour
 
         foreach (var hit in hits)
         {
-            var combatEntity = hit.GetComponent<CombatEntity>();
+            var combatEntity = hit.GetComponentInParent<CombatEntity>();
             if (combatEntity != null)
             {
                 combatEntity.Hit();
