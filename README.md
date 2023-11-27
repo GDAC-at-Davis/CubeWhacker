@@ -1,2 +1,2 @@
 # CubeWhacker
-Whack Cubes! A simple game for use in club workshops.
+Whack Cubes! Add your models into the game and see them in action!
