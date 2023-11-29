@@ -11,7 +11,7 @@ public class WhackingGearScript : MonoBehaviour
     {
         if (isActive && (hitMask.value | (1 << coll.gameObject.layer)) == hitMask.value)
         {
-            var hit = coll.GetComponent<CombatEntity>();
+            var hit = coll.GetComponentInParent<CombatEntity>();
             if (hit != null)
             {
                 hit.Hit();
